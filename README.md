@@ -1,3 +1,10 @@
+# Nothing (inspired by the game on Steam)
+
+This is a practice project on `React.js`. The mechanism is inspired by 'Nothing' on Steam. **It is not original.**
+
+
+## Functions
+
 That’s a fun and intriguing concept! Here’s a breakdown of the functions you'll need to implement for the "Nothing" website, along with their difficulty levels:
 
 ### Functions to Implement:
@@ -42,16 +49,3 @@ That’s a fun and intriguing concept! Here’s a breakdown of the functions you
    - **Difficulty**: Medium
    - **Details**: Design a layout that clearly shows the timer, start button, and results. Consider adding styling and animations to enhance user experience.
 
-### Additional Considerations:
-
-- **Error Handling**: Ensure your app handles errors gracefully (e.g., if the timer function fails).
-- **Performance**: Optimize performance to ensure the app runs smoothly and efficiently.
-- **Accessibility**: Make sure the website is accessible to all users, including those using screen readers or other assistive technologies.
-
-### Summary of Difficulty Levels:
-
-- **Easy**: Start Button Functionality, Stop Timer and Record Time, Reset Timer and Rankings.
-- **Medium**: Timer Functionality, Detect User Interaction, Display Time and Ranking, UI/UX Design.
-- **Medium to Hard**: Store and Retrieve Rankings (depending on persistence method).
-
-Feel free to start with the easier tasks and gradually work your way up to the more complex features. If you run into any specific challenges or need further guidance, let me know!
