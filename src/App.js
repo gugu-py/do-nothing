@@ -24,6 +24,7 @@ function App() {
     click_count++;
     console.log('clicked');
   };
+  const onContextMenu = () => {setFail(2);console.log('ContextMenu');};
   useEffect(
     () => {
       if (started){
@@ -32,6 +33,7 @@ function App() {
         document.addEventListener('mousemove', onMouseMove);
         document.addEventListener('keydown', onKeyDown);
         document.addEventListener('click', onClick);
+        document.addEventListener('contextmenu', onContextMenu);
       }
       
       return () => {
@@ -41,10 +43,12 @@ function App() {
           document.removeEventListener('mousemove', onMouseMove);
           document.removeEventListener('keydown', onKeyDown);
           document.removeEventListener('click', onClick);
+          document.removeEventListener('contextmenu', onContextMenu);
         }
         document.removeEventListener('mousemove', onMouseMove);
         document.removeEventListener('keydown', onKeyDown);
         document.removeEventListener('click', onClick);
+        document.removeEventListener('contextmenu', onContextMenu);
       };
     }, [started]
   );
