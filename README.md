@@ -29,20 +29,15 @@ That’s a fun and intriguing concept! Here’s a breakdown of the functions you
    - **Difficulty**: Easy
    - **Details**: When any interaction is detected, clear the timer and save the elapsed time.
 
-5. **Display Time and Ranking**
-   - **Description**: Shows the total time spent and how it compares to other users' times.
+5. **Display Time**
+   - **Description**: Shows the total time spent.
    - **Difficulty**: Medium
-   - **Details**: For simplicity, you might start with a local ranking system (e.g., saving times in local storage) or later use a server-side solution to keep track of global times.
 
-6. **Store and Retrieve Rankings**
-   - **Description**: Save user times and retrieve them to show rankings.
-   - **Difficulty**: Medium to Hard (depends on persistence method)
-   - **Details**: Use `localStorage` for simple persistence, or set up a backend service if you want to scale it to store global rankings.
 
-7. **Reset Timer and Rankings**
-   - **Description**: Provide an option to reset the timer and possibly clear or reset rankings.
+6. **Reset Timer**
+   - **Description**: Provide an option to reset the timer.
    - **Difficulty**: Easy
-   - **Details**: Implement a reset button to clear the timer and possibly the stored rankings.
+   - **Details**: Implement a reset button to clear the timer.
 
 8. **UI/UX Design**
    - **Description**: Create an intuitive and engaging user interface for the website.
